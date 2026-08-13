@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-13T16:47:08.028948+05:30",
+  "date": "2026-08-13T17:04:03.248155+05:30",
   "prediction_period": "2026-08-17 to 2026-08-21",
-  "portfolio_value": 10000,
+  "portfolio_value": 10000.0,
   "total_return_pct": 0.0,
   "trust": {
     "rl_trust": 0.254,
