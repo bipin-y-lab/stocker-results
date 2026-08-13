@@ -65,5 +65,29 @@
       "type": "loss"
     }
   ],
-  "last_updated": "2026-08-13T18:05:06.366709+05:30"
+  "last_updated": "2026-08-13T18:05:06.366709+05:30",
+  "backtest_learnings": {
+    "period": "2026-03-28 to 2026-08-13",
+    "total_return_pct": 6.72,
+    "sharpe": 3.72,
+    "max_drawdown_pct": 1.9,
+    "win_rate_pct": 54,
+    "key_insights": [
+      "Strong signals (BUY count > 5) in early weeks → deploy aggressively",
+      "Zero BUY signals for weeks → PM override using classifier P(up) > 90%",
+      "Adaptive aggression (0.6x-2.0x) preserved capital during weak periods",
+      "Max drawdown only 1.9% — never risk more than 5% of portfolio",
+      "First 3 weeks had best returns when RL confidence was highest",
+      "Weekly liquidation (buy Tue, sell Thu) works well for NSE"
+    ],
+    "strategy_rules": [
+      "RULE 1: If RL gives BUY signals, follow the model (trust the edge)",
+      "RULE 2: If 0 BUY signals, PM generates picks from classifier + momentum",
+      "RULE 3: Never deploy > 98% of capital (always keep min trading fees)",
+      "RULE 4: Ramp aggression on winning streaks (let winners compound)",
+      "RULE 5: Cut aggression to 0.6x after 2+ consecutive losses",
+      "RULE 6: Auto-avoid stocks with avg P&L < -1% after 3+ trades",
+      "RULE 7: 3% is the FLOOR — no cap on upside, max risk is 5% drawdown"
+    ]
+  }
 }
