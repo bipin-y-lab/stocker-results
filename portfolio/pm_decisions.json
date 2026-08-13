@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-13T18:05:06.367287+05:30",
+  "date": "2026-08-13T18:29:02.715738+05:30",
   "prediction_period": "2026-08-17 to 2026-08-21",
   "portfolio_value": 10000.0,
   "total_return_pct": 0.0,
@@ -14,5 +14,41 @@
   },
   "sizing_mode": "MODERATE",
   "deploy_pct": 0.75,
-  "top_picks": []
+  "top_picks": [
+    {
+      "ticker": "BALKRISIND.NS",
+      "score": 0.7991,
+      "rl_raw": -0.0038,
+      "cls_prob": 0.9998,
+      "pm_conviction": 0.4411
+    },
+    {
+      "ticker": "BERGEPAINT.NS",
+      "score": 0.796,
+      "rl_raw": -0.0048,
+      "cls_prob": 0.9949,
+      "pm_conviction": 0.4394
+    },
+    {
+      "ticker": "SAIL.NS",
+      "score": 0.7975,
+      "rl_raw": -0.0094,
+      "cls_prob": 0.999,
+      "pm_conviction": 0.4402
+    },
+    {
+      "ticker": "APARINDS.NS",
+      "score": 0.7969,
+      "rl_raw": -0.0148,
+      "cls_prob": 0.9997,
+      "pm_conviction": 0.4399
+    },
+    {
+      "ticker": "PAGEIND.NS",
+      "score": 0.7959,
+      "rl_raw": -0.0205,
+      "cls_prob": 1.0,
+      "pm_conviction": 0.4393
+    }
+  ]
 }

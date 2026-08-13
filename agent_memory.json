@@ -37,6 +37,13 @@
       "pnl": 0,
       "n_trades": 0,
       "date": "2026-08-13T18:05:06.366565+05:30"
+    },
+    {
+      "week": "2026-W33",
+      "pct": 0.0,
+      "pnl": 0,
+      "n_trades": 0,
+      "date": "2026-08-13T18:29:02.715127+05:30"
     }
   ],
   "stock_performance": {},
@@ -63,9 +70,14 @@
       "date": "2026-08-13T18:05:06.366565+05:30",
       "text": "Week 2026-W33: +0.00% (₹+0) | Streak: +0 | Aggression: 1.0x | Lifetime WR: 0% (0 trades)",
       "type": "loss"
+    },
+    {
+      "date": "2026-08-13T18:29:02.715127+05:30",
+      "text": "Week 2026-W33: +0.00% (₹+0) | Streak: +0 | Aggression: 1.0x | Lifetime WR: 0% (0 trades)",
+      "type": "loss"
     }
   ],
-  "last_updated": "2026-08-13T18:05:06.366709+05:30",
+  "last_updated": "2026-08-13T18:29:02.715237+05:30",
   "backtest_learnings": {
     "period": "2026-03-28 to 2026-08-13",
     "total_return_pct": 6.72,
