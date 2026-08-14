@@ -1,0 +1,117 @@
+[
+  {
+    "time": "2026-08-14T09:54:58.936953+05:30",
+    "user": "How's the training going",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: RUNNING\nCurrent model: 5,000 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-14T09:55:25.374239+05:30",
+    "user": "Research Honasa Consumer",
+    "response": "Which stock? Try: /research RELIANCE"
+  },
+  {
+    "time": "2026-08-14T09:55:49.437408+05:30",
+    "user": "/research Honasa Consumer",
+    "response": "No data found for HONASA.NS. Check the spelling."
+  },
+  {
+    "time": "2026-08-14T09:56:51.911015+05:30",
+    "user": null,
+    "response": "Error processing your message: 'NoneType' object has no attribute 'lower'"
+  },
+  {
+    "time": "2026-08-14T09:57:01.256924+05:30",
+    "user": "/trades",
+    "response": "No trades executed yet. Portfolio is all cash."
+  },
+  {
+    "time": "2026-08-14T09:57:05.806532+05:30",
+    "user": "/strategy",
+    "response": "PM STRATEGY RULES\n\n1. RULE 1: If RL gives BUY signals, follow the model (trust the edge)\n2. RULE 2: If 0 BUY signals, PM generates picks from classifier + momentum\n3. RULE 3: Never deploy > 98% of capital (always keep min trading fees)\n4. RULE 4: Ramp aggression on winning streaks (let winners compound)\n5. RULE 5: Cut aggression to 0.6x after 2+ consecutive losses\n6. RULE 6: Auto-avoid stocks with avg P&L < -1% after 3+ trades\n7. RULE 7: 3% is the FLOOR — no cap on upside, max risk is 5% drawdow"
+  },
+  {
+    "time": "2026-08-14T10:06:57.006939+05:30",
+    "user": "/research",
+    "response": "Usage: /research RELIANCE"
+  },
+  {
+    "time": "2026-08-14T10:07:13.800088+05:30",
+    "user": "/research",
+    "response": "Usage: /research RELIANCE"
+  },
+  {
+    "time": "2026-08-14T10:07:52.225411+05:30",
+    "user": "/research lg electronics india",
+    "response": "No data found for LG.NS. Check the spelling."
+  },
+  {
+    "time": "2026-08-14T10:08:20.460131+05:30",
+    "user": "Can you do research on lg electronics india",
+    "response": "RESEARCH: CANBK.NS\nData date: 2026-08-06\n\nClose: Rs 131.70\nRSI: 66.1\nMomentum 5d: +5.97%\nMomentum 20d: +5.53%\nVolatility 10d: 1.25%\nMACD Histogram: 0.7\n\nModel signal: HOLD\nScore: 0.3328\nRL raw: -0.0154\nClassifier P(up): 0.2496"
+  },
+  {
+    "time": "2026-08-14T10:10:01.813392+05:30",
+    "user": "Research tcs",
+    "response": "RESEARCH: TCS.NS\nData date: 2026-08-06\n\nClose: Rs 2,373.00\nRSI: 58.8\nMomentum 5d: -2.42%\nMomentum 20d: +15.78%\nVolatility 10d: 2.54%\nMACD Histogram: 12.1\n\nModel signal: HOLD\nScore: 0.3120\nRL raw: -0.0051\nClassifier P(up): 0.0904"
+  },
+  {
+    "time": "2026-08-14T10:10:17.512894+05:30",
+    "user": "/help",
+    "response": "STOCKER PM BOT\n\nCommands:\n  /status — portfolio snapshot\n  /picks — today's signals\n  /trades — recent trades\n  /memory — agent intelligence\n  /research SYMBOL — stock lookup\n  /calendar — next week plan\n  /train — training status\n  /strategy — the 7 rules\n\nOr just ask me anything in plain English."
+  },
+  {
+    "time": "2026-08-14T10:10:32.050679+05:30",
+    "user": "Who made you",
+    "response": "Got it. Your message has been logged for PM review.\n\nFor instant answers, try:\n  status / picks / trades / memory\n  research <stock name>\n  calendar / strategy / train\n\nFor anything complex, PM will respond shortly."
+  },
+  {
+    "time": "2026-08-14T10:13:09.628099+05:30",
+    "user": "How's the training going",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: RUNNING\nCurrent model: 5,000 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-14T10:18:11.458116+05:30",
+    "user": "Can you do research on lg electronics india",
+    "response": "__RESEARCH_REQUEST__"
+  },
+  {
+    "time": "2026-08-14T10:28:00.352380+05:30",
+    "user": "How's the training going",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: RUNNING\nCurrent model: 5,000 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-14T10:34:27.420638+05:30",
+    "user": "Research ujwala",
+    "response": "__RESEARCH_REQUEST__"
+  },
+  {
+    "time": "2026-08-14T10:41:09.033964+05:30",
+    "user": "/status",
+    "response": "PORTFOLIO STATUS — 2026-08-14 10:41 IST\n\nValue: Rs 10,000 (+0.00%)\nCash: Rs 10,000\nHoldings: 0\nPending settlement: Rs 0\nTotal trades: 0\n\nAgent: streak=+0, aggression=1.0x\nTrust: 55%"
+  },
+  {
+    "time": "2026-08-14T10:54:59.362836+05:30",
+    "user": "/strategy",
+    "response": "PM STRATEGY RULES\n\n1. RULE 1: If RL gives BUY signals, follow the model (trust the edge)\n2. RULE 2: If 0 BUY signals, PM generates picks from classifier + momentum\n3. RULE 3: Never deploy > 98% of capital (always keep min trading fees)\n4. RULE 4: Ramp aggression on winning streaks (let winners compound)\n5. RULE 5: Cut aggression to 0.6x after 2+ consecutive losses\n6. RULE 6: Auto-avoid stocks with avg P&L < -1% after 3+ trades\n7. RULE 7: 3% is the FLOOR — no cap on upside, max risk is 5% drawdow"
+  },
+  {
+    "time": "2026-08-14T10:54:59.539597+05:30",
+    "user": "Can you set the starting amount of portfolio value to 50k",
+    "response": "PORTFOLIO STATUS — 2026-08-14 10:54 IST\n\nValue: Rs 10,000 (+0.00%)\nCash: Rs 10,000\nHoldings: 0\nPending settlement: Rs 0\nTotal trades: 0\n\nAgent: streak=+0, aggression=1.0x\nTrust: 55%"
+  },
+  {
+    "time": "2026-08-14T14:57:33.320481+05:30",
+    "user": "I got this message from the training script \n\n✅ stocker-training Step 4 — RL training complete\n  Total steps: 3,030,000\n  Episodes: 600,000\n  Final ep reward: 4.8992\n  Time: 136m36s\n\nAnd then\n\n❌ Training FAILED\nStatus: Warning: Looks like you're using an outdated kaggle version (installed: 2.0.0), please consider upgrading to the latest version (2.2.2)\nbipinyadav007/stocker-training has status \"KernelWorkerStatus.ERROR\"\nAfter 150 min\nCheck: kaggle kernels output bipinyadav007/stocker-training\n\n\nWhy is it like this? Please investigate",
+    "response": "PORTFOLIO STATUS — 2026-08-14 14:57 IST\n\nValue: Rs 50,000 (+0.00%)\nCash: Rs 50,000\nHoldings: 0\nPending settlement: Rs 0\nTotal trades: 0\n\nAgent: streak=+0, aggression=1.0x\nTrust: 55%"
+  },
+  {
+    "time": "2026-08-14T15:11:09.473636+05:30",
+    "user": "Can you tell me your analysis about a new IPO called shiprocket",
+    "response": "Hello! I'm your PM bot.\n\nQuick status: Value: Rs 50,000 (+0.00%)\n\nAsk me anything — portfolio, signals, trades, training, strategy."
+  },
+  {
+    "time": "2026-08-14T15:24:32.033068+05:30",
+    "user": "/calendar",
+    "response": "TRADING CALENDAR\n\nNext entry: Monday 2026-08-17\nNext exit: Wednesday 2026-08-19\nSchedule: Mon to Wed (Sharpe 0.61 from 79K data points)\n\nWhy Monday: captures weekend gap, avoids Tue F&O expiry\nWhy Wednesday: best risk-adjusted exit, settles Thu (T+1)"
+  }
+]

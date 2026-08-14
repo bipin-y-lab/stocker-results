@@ -1,0 +1,16 @@
+{
+  "strategy": "Regime-filtered mean-reversion (Mon\u2192Wed)",
+  "initial": 50000,
+  "final": 49140.98,
+  "total_return_pct": -1.72,
+  "cagr_pct": -0.86,
+  "sharpe_all": -0.12,
+  "sharpe_traded": -0.15,
+  "max_dd_pct": 6.84,
+  "weeks_traded": 54,
+  "weeks_total": 95,
+  "win_rate_pct": 48.1,
+  "profit_factor": 0.95,
+  "total_trades": 161,
+  "regime_skips": 41
+}

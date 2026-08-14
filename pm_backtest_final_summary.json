@@ -1,0 +1,11 @@
+{
+  "strategy": "Mean-reversion + AUC-0.96 classifier, Mon\u2192Wed, 5 positions",
+  "initial": 50000,
+  "final": 87118.75,
+  "total_return_pct": 74.24,
+  "cagr_pct": 32.0,
+  "sharpe": 2.0,
+  "max_dd_pct": 9.74,
+  "total_trades": 467,
+  "win_rate_pct": 56.8
+}

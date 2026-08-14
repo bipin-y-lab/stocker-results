@@ -3,92 +3,18 @@
   "version": 2,
   "lifetime_trades": 0,
   "lifetime_wins": 0,
-  "lifetime_pnl_inr": 0.0,
+  "lifetime_pnl_inr": 0,
   "best_week_pct": 0.0,
   "worst_week_pct": 0.0,
   "consecutive_wins": 0,
   "consecutive_losses": 0,
   "streak": 0,
-  "weekly_returns": [
-    {
-      "week": "2026-W33",
-      "pct": 0.0,
-      "pnl": 0,
-      "n_trades": 0,
-      "date": "2026-08-13T17:04:03.245249+05:30"
-    },
-    {
-      "week": "2026-W33",
-      "pct": 0.0,
-      "pnl": 0,
-      "n_trades": 0,
-      "date": "2026-08-13T17:26:09.847400+05:30"
-    },
-    {
-      "week": "2026-W33",
-      "pct": 0.0,
-      "pnl": 0,
-      "n_trades": 0,
-      "date": "2026-08-13T17:26:44.654817+05:30"
-    },
-    {
-      "week": "2026-W33",
-      "pct": 0.0,
-      "pnl": 0,
-      "n_trades": 0,
-      "date": "2026-08-13T18:05:06.366565+05:30"
-    },
-    {
-      "week": "2026-W33",
-      "pct": 0.0,
-      "pnl": 0,
-      "n_trades": 0,
-      "date": "2026-08-13T18:29:02.715127+05:30"
-    },
-    {
-      "week": "2026-W33",
-      "pct": 0.0,
-      "pnl": 0,
-      "n_trades": 0,
-      "date": "2026-08-13T20:14:15.993070+05:30"
-    }
-  ],
+  "weekly_returns": [],
   "stock_performance": {},
   "current_aggression": 1.0,
   "preferred_sectors": [],
   "avoid_stocks": [],
-  "insights": [
-    {
-      "date": "2026-08-13T17:04:03.245249+05:30",
-      "text": "Week 2026-W33: +0.00% (₹+0) | Streak: +0 | Aggression: 1.0x | Lifetime WR: 0% (0 trades)",
-      "type": "loss"
-    },
-    {
-      "date": "2026-08-13T17:26:09.847400+05:30",
-      "text": "Week 2026-W33: +0.00% (₹+0) | Streak: +0 | Aggression: 1.0x | Lifetime WR: 0% (0 trades)",
-      "type": "loss"
-    },
-    {
-      "date": "2026-08-13T17:26:44.654817+05:30",
-      "text": "Week 2026-W33: +0.00% (₹+0) | Streak: +0 | Aggression: 1.0x | Lifetime WR: 0% (0 trades)",
-      "type": "loss"
-    },
-    {
-      "date": "2026-08-13T18:05:06.366565+05:30",
-      "text": "Week 2026-W33: +0.00% (₹+0) | Streak: +0 | Aggression: 1.0x | Lifetime WR: 0% (0 trades)",
-      "type": "loss"
-    },
-    {
-      "date": "2026-08-13T18:29:02.715127+05:30",
-      "text": "Week 2026-W33: +0.00% (₹+0) | Streak: +0 | Aggression: 1.0x | Lifetime WR: 0% (0 trades)",
-      "type": "loss"
-    },
-    {
-      "date": "2026-08-13T20:14:15.993070+05:30",
-      "text": "Week 2026-W33: +0.00% (₹+0) | Streak: +0 | Aggression: 1.0x | Lifetime WR: 0% (0 trades)",
-      "type": "loss"
-    }
-  ],
+  "insights": [],
   "last_updated": "2026-08-13T20:14:15.993256+05:30",
   "backtest_learnings": {
     "period": "2026-03-28 to 2026-08-13",
@@ -112,6 +38,24 @@
       "RULE 5: Cut aggression to 0.6x after 2+ consecutive losses",
       "RULE 6: Auto-avoid stocks with avg P&L < -1% after 3+ trades",
       "RULE 7: 3% is the FLOOR — no cap on upside, max risk is 5% drawdown"
-    ]
+    ],
+    "validated_schedule": {
+      "entry": "Monday (weekday 0)",
+      "exit": "Wednesday (weekday 2)",
+      "evidence": {
+        "full_dataset": "Sharpe 0.61, WR 52.6%, mean +0.21% (79,675 pts, 30 stocks, 2015-2026)",
+        "hq_stocks_post_t1": "Sharpe 0.58, WR 51.7%, mean +0.20% (2,505 pts, 15 stocks, 2023-2026)",
+        "vs_mon_thu": "Mon→Thu Sharpe 0.34 — almost half the risk-adjusted return",
+        "vs_tue_thu": "Tue→Thu Sharpe 0.50 — old schedule was 18% worse",
+        "statistical_test": "p=0.41 — not significant vs Mon→Thu, use Sharpe as tiebreaker"
+      },
+      "special_rules": [
+        "Expiry weeks (last week of month) actually perform better for large-caps on Mon→Wed",
+        "F&O weekly expiry is Tuesday — never enter/exit on Tuesday",
+        "Aug 26 is settlement holiday — adjust that week to Mon→Tue or Mon→Thu",
+        "Week 1 of month has best daily returns (+0.10% vs +0.03% mid-month)",
+        "Month-end (days 25-31) has strong returns (+0.15%/day) — good for entry"
+      ]
+    }
   }
 }

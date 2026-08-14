@@ -1,0 +1,19 @@
+{
+  "period": "2024-08-01 to 2026-08-06",
+  "strategy": "Mean-reversion (buy oversold Mon\u2192sell Wed)",
+  "n_weeks": 95,
+  "initial": 10000,
+  "final": 9948.09,
+  "total_return_pct": -0.52,
+  "cagr_pct": -0.26,
+  "sharpe": -0.62,
+  "max_drawdown_pct": 0.62,
+  "win_rate_pct": 3.2,
+  "avg_weekly_pct": -0.01,
+  "best_week_pct": 0.21,
+  "worst_week_pct": -0.34,
+  "weeks_above_3pct": 0,
+  "profit_factor": 0.49,
+  "total_trades": 8,
+  "trade_win_rate_pct": 37.5
+}

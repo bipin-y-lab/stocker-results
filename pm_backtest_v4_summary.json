@@ -1,0 +1,13 @@
+{
+  "strategy": "Sharp mean-reversion + inverse-vol sizing (Mon\u2192Wed)",
+  "initial": 50000,
+  "final": 44786.5,
+  "total_return_pct": -10.43,
+  "cagr_pct": -5.36,
+  "sharpe": -0.51,
+  "max_dd_pct": 14.66,
+  "weeks_traded": 95,
+  "win_rate_pct": 45.3,
+  "profit_factor": 0.83,
+  "total_trades": 284
+}

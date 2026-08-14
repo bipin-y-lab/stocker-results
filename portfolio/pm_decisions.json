@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-13T20:14:15.995524+05:30",
+  "date": "2026-08-14T17:04:29.761113+05:30",
   "prediction_period": "2026-08-17 to 2026-08-21",
-  "portfolio_value": 10000.0,
-  "total_return_pct": 0.0,
+  "portfolio_value": 50000,
+  "total_return_pct": 400.0,
   "trust": {
     "rl_trust": 0.254,
     "cls_trust": 1.0,
@@ -16,39 +16,39 @@
   "deploy_pct": 0.75,
   "top_picks": [
     {
-      "ticker": "BALKRISIND.NS",
-      "score": 0.7991,
-      "rl_raw": -0.0038,
+      "ticker": "AIAENG.NS",
+      "score": 0.799,
+      "rl_raw": -0.0043,
       "cls_prob": 0.9998,
       "pm_conviction": 0.4411
     },
     {
-      "ticker": "BERGEPAINT.NS",
-      "score": 0.796,
-      "rl_raw": -0.0048,
-      "cls_prob": 0.9949,
-      "pm_conviction": 0.4394
+      "ticker": "PIIND.NS",
+      "score": 0.7991,
+      "rl_raw": -0.0045,
+      "cls_prob": 0.9999,
+      "pm_conviction": 0.4411
     },
     {
-      "ticker": "SAIL.NS",
-      "score": 0.7975,
-      "rl_raw": -0.0094,
-      "cls_prob": 0.999,
-      "pm_conviction": 0.4402
-    },
-    {
-      "ticker": "APARINDS.NS",
-      "score": 0.7969,
-      "rl_raw": -0.0148,
+      "ticker": "MEDANTA.NS",
+      "score": 0.7989,
+      "rl_raw": -0.0047,
       "cls_prob": 0.9997,
-      "pm_conviction": 0.4399
+      "pm_conviction": 0.441
     },
     {
-      "ticker": "PAGEIND.NS",
-      "score": 0.7959,
-      "rl_raw": -0.0205,
+      "ticker": "UNOMINDA.NS",
+      "score": 0.7989,
+      "rl_raw": -0.0048,
+      "cls_prob": 0.9997,
+      "pm_conviction": 0.441
+    },
+    {
+      "ticker": "LLOYDSME.NS",
+      "score": 0.799,
+      "rl_raw": -0.005,
       "cls_prob": 1.0,
-      "pm_conviction": 0.4393
+      "pm_conviction": 0.441
     }
   ]
 }
