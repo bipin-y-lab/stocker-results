@@ -113,5 +113,115 @@
     "time": "2026-08-14T15:24:32.033068+05:30",
     "user": "/calendar",
     "response": "TRADING CALENDAR\n\nNext entry: Monday 2026-08-17\nNext exit: Wednesday 2026-08-19\nSchedule: Mon to Wed (Sharpe 0.61 from 79K data points)\n\nWhy Monday: captures weekend gap, avoids Tue F&O expiry\nWhy Wednesday: best risk-adjusted exit, settles Thu (T+1)"
+  },
+  {
+    "time": "2026-08-14T17:17:27.559013+05:30",
+    "user": "The model is trained now what?",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: ERROR\nCurrent model: 5,000 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-14T18:18:57.916610+05:30",
+    "user": "Better if you stop training and run this gpu version just with 3 steps and see whole thing is passed successfully and the retrain with 3M steps",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: RUNNING\nCurrent model: 5,000 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-14T18:34:03.662147+05:30",
+    "user": "Is it done?",
+    "response": "Got it. Your message has been logged for PM review.\n\nFor instant answers, try:\n  status / picks / trades / memory\n  research <stock name>\n  calendar / strategy / train\n\nFor anything complex, PM will respond shortly."
+  },
+  {
+    "time": "2026-08-14T18:48:31.541104+05:30",
+    "user": "Check again if it's done?",
+    "response": "__RESEARCH_REQUEST__"
+  },
+  {
+    "time": "2026-08-14T18:49:45.406308+05:30",
+    "user": "✅ stocker-training Step 5 — shared classifier trained\n\nClassifier Evaluation (250 stocks, 67,566 OOS rows)\n  ROC‑AUC: 0.9567\n  PR‑AUC: 0.9139\n  F1 (opt thr): 0.8222\n  Threshold (opt): 0.4416\n  Brier Score: 0.0743\n  Positive Rate: 0.2957\n\nBut I got step 5 notification",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nCurrent model: 5,000 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-14T18:54:58.577945+05:30",
+    "user": "Something is wrong?\n\nWhy am I getting this text on TG \n\n⏳ Step 4 — 75% (2,280,000 steps) ETA 29m",
+    "response": "Hello! I'm your PM bot.\n\nQuick status: Value: Rs 50,000 (+400.00%)\n\nAsk me anything — portfolio, signals, trades, training, strategy."
+  },
+  {
+    "time": "2026-08-14T19:14:41.763823+05:30",
+    "user": "It's done it looks like?\n✅ Training COMPLETE!\nDuration: 50 min\n3M steps on T4 GPU across 250 stocks.\n\nArtifacts pushed to stocker-artifacts repo.\nReports pushed to stocker repo.\nPM runner will use fresh model at next 17:00 IST run.",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: COMPLETE\nCurrent model: 5,000 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-14T19:15:18.512457+05:30",
+    "user": "/calendar",
+    "response": "TRADING CALENDAR\n\nNext entry: Monday 2026-08-17\nNext exit: Wednesday 2026-08-19\nSchedule: Mon to Wed (Sharpe 0.61 from 79K data points)\n\nWhy Monday: captures weekend gap, avoids Tue F&O expiry\nWhy Wednesday: best risk-adjusted exit, settles Thu (T+1)"
+  },
+  {
+    "time": "2026-08-14T19:51:23.676132+05:30",
+    "user": "Check if model is made to see the data which earned 3% by Wednesday? Or else paper trading will be following wrong trend of taking out on Wednesday but model was trained on something else",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: RUNNING\nCurrent model: 3 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-14T20:12:12.338183+05:30",
+    "user": "My thinking to make l day forward because, that model will be evaluated daily by the generate signal script after training, so if on Sunday it says pick thr trade on Monday and on Monday evaluation sell it on Tuesday then it should keep on selling \n\nOr do you think as professional portfolio manager it will be the worst idea?",
+    "response": "PORTFOLIO STATUS — 2026-08-14 20:12 IST\n\nValue: Rs 50,000 (+400.00%)\nCash: Rs 50,000\nHoldings: 0\nPending settlement: Rs 0\nTotal trades: 0\n\nAgent: streak=+0, aggression=1.0x\nTrust: 55%"
+  },
+  {
+    "time": "2026-08-14T20:21:35.290923+05:30",
+    "user": "So do you think it will make the model much less efficient of if we train it after training on plus one day and later we change the plus today and give that data to model and turn on that will it make it better and we met will it make it worse we must compare that yeah",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: RUNNING\nCurrent model: 3 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-14T21:39:26.718643+05:30",
+    "user": "So now if you going to retrain it will it use the same model from the artifact that was trained on three million parameter for plus one day data set and when we train it on the new data set for the plus two days old data then it's gonna use the same trend model or like what's the process or is it going to train from the scratch please verify and explain only",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: RUNNING\nCurrent model: 3 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-14T21:46:59.620670+05:30",
+    "user": "❌ Training FAILED\nStatus: Warning: Looks like you're using an outdated kaggle version (installed: 2.0.0), please consider upgrading to the latest version (2.2.2)\nbipinyadav007/stocker-training has status \"KernelWorkerStatus.ERROR\"\nAfter 130 min\nCheck: kaggle kernels output bipinyadav007/stocker-training\n\nWhat happened?",
+    "response": "PORTFOLIO STATUS — 2026-08-14 21:46 IST\n\nValue: Rs 50,000 (+400.00%)\nCash: Rs 50,000\nHoldings: 0\nPending settlement: Rs 0\nTotal trades: 0\n\nAgent: streak=+0, aggression=1.0x\nTrust: 55%"
+  },
+  {
+    "time": "2026-08-15T00:05:42.474380+05:30",
+    "user": "Why is it failing?\n\nStocker:\n✅ Step 4A — RL training complete | 3,030,004 steps | 122m47s\nSaving model in next cell...\n\n❌ Training FAILED\nStatus: Warning: Looks like you're using an outdated kaggle version (installed: 2.0.0), please consider upgrading to the latest version (2.2.2)\nbipinyadav007/stocker-training has status \"KernelWorkerStatus.ERROR\"\nAfter 130 min\nCheck: kaggle kernels output bipinyadav007/stocker-training\n\n\nDecrease the steps to 30 and see if it works if not then fix it once for all",
+    "response": "PORTFOLIO STATUS — 2026-08-15 00:05 IST\n\nValue: Rs 50,000 (+400.00%)\nCash: Rs 50,000\nHoldings: 0\nPending settlement: Rs 0\nTotal trades: 0\n\nAgent: streak=+0, aggression=1.0x\nTrust: 55%"
+  },
+  {
+    "time": "2026-08-15T00:22:01.784663+05:30",
+    "user": "Looks like it worked on small steps but not huge steps? Is it have to do anything with kaggle notebook timeout? Do your proper research?\n\nStocker:\n✅ Step 4A — RL training done | 30,036 steps | 0m7s\n\n✅ Step 4B — OOS eval\n  Sharpe: 2.29\n  Hit rate: 61.0%\n  Return: 26.1%\n\n✅ stocker-training Step 5 — shared classifier trained\n\nClassifier Evaluation (250 stocks, 67,565 OOS rows)\n  ROC‑AUC: 0.9568\n  PR‑AUC: 0.9139\n  F1 (opt thr): 0.8228\n  Threshold (opt): 0.4477\n  Brier Score: 0.0743\n  Positive Rate: 0.2956",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: RUNNING\nCurrent model: 3 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-15T01:53:11.816823+05:30",
+    "user": "What's all this, why there are multiple instances running?\n\nStocker:\n⏳ Step 4A — 25% (780,004) ETA 111m\n\n⏳ Step 4A — 50% (1,530,004) ETA 74m\n\n🚀 stocker-training started — code cloned from bipin-y-lab/stocker.\n\n🚀 stocker-signals started — code cloned from bipin-y-lab/stocker.",
+    "response": "LATEST SIGNALS — signals_20260814.csv\nModel data date: 2026-08-14\nUniverse: 250 stocks | BUY: 0\n\nNo BUY signals from model.\n\nPM Override Candidates (high classifier confidence):\n  LAURUSLABS      cls_prob=0.9998\n  LTTS            cls_prob=0.9998\n  IPCALAB         cls_prob=0.9998\n  RECLTD          cls_prob=0.9994\n  ASHOKLEY        cls_prob=0.9988"
+  },
+  {
+    "time": "2026-08-15T01:56:35.593792+05:30",
+    "user": "Why it says \n\n🚀 Step 4A — RL started | 1,000,000 steps | GPU=False\n\nIs it because we used all the quota of GPU",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: RUNNING\nCurrent model: 3 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-15T01:58:00.511210+05:30",
+    "user": "Can you stop that version 60 and late only the version 61 running without interrupting the Virgin 61 training",
+    "response": "KAGGLE TRAINING STATUS\n\nStatus: RUNNING\nCurrent model: 3 steps\nBackend: sbx_tqc\nStocks trained on: 250\nTarget: 3,000,000 steps on T4 GPU"
+  },
+  {
+    "time": "2026-08-15T01:59:21.256523+05:30",
+    "user": "You are the best",
+    "response": "Got it. Your message has been logged for PM review.\n\nFor instant answers, try:\n  status / picks / trades / memory\n  research <stock name>\n  calendar / strategy / train\n\nFor anything complex, PM will respond shortly."
+  },
+  {
+    "time": "2026-08-15T08:08:01.820419+05:30",
+    "user": "Check the logs again",
+    "response": "__RESEARCH_REQUEST__"
+  },
+  {
+    "time": "2026-08-15T08:11:07.114399+05:30",
+    "user": "⏳ Step 4A — 75% (2,280,004) ETA 36m\n\nI can only see this",
+    "response": "Hello! I'm your PM bot.\n\nQuick status: Value: Rs 50,000 (+400.00%)\n\nAsk me anything — portfolio, signals, trades, training, strategy."
+  },
+  {
+    "time": "2026-08-15T08:13:30.005234+05:30",
+    "user": "Nope make the changes now",
+    "response": "Got it. Your message has been logged for PM review.\n\nFor instant answers, try:\n  status / picks / trades / memory\n  research <stock name>\n  calendar / strategy / train\n\nFor anything complex, PM will respond shortly."
   }
 ]
